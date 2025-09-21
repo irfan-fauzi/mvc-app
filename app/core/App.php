@@ -2,6 +2,8 @@
 
   /*
     Dokumentasi
+    warning! jangan pusingin kode ini!! 
+
     aplikasi ini berbasis url, fokus pada url
     misal pada url di browser = http://localhost/mvc-app/transaksi/pembayaran/tunai
     maka = http://localhost/mvc-app/controller/method/parameter
