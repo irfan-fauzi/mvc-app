@@ -2,7 +2,5 @@
 
 require_once '../app/init.php';
 $app = new App();
-var_dump($app);
-echo 'ok';
-echo 'salam';
+
 ?>
