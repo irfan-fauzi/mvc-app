@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <title>Home</title>
+  <title><?= $data['title'] ?></title>
 </head>
 
 <body>
@@ -13,8 +13,8 @@
     <nav class="flex justify-between max-w-screen-xl mx-auto px-5 py-3 item-center">
       <h1 class="text-3xl font-bold">Mvc app</h1>
       <ul class="flex gap-5">
-        <li><a href="/"></a>home</li>
-        <li><a href="/about"></a>about</li>
+        <li class="cursor-pointer"><a href="/"></a>home</li>
+        <li class="cursor-pointer"><a href="/about"></a>about</li>
       </ul>
     </nav>
   </header>
