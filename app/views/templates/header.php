@@ -13,8 +13,9 @@
     <nav class="flex justify-between max-w-screen-xl mx-auto px-5 py-3 item-center">
       <h1 class="text-3xl font-bold">Mvc app</h1>
       <ul class="flex gap-5">
-        <li class="cursor-pointer"><a href="/"></a>home</li>
-        <li class="cursor-pointer"><a href="/about"></a>about</li>
+        <li class="cursor-pointer"><a href=<?= BASE_URL ?>>home </a></li>
+        <li class="cursor-pointer"><a href=<?= BASE_URL .'about' ?>>about</a></li>
+        <li class="cursor-pointer"><a href=<?= BASE_URL .'mahasiswa' ?>>Mahasiswa</a></li>
       </ul>
     </nav>
   </header>
